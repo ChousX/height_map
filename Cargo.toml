@@ -1,0 +1,13 @@
+[package]
+name = "height_map"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.8"
+bevy-inspector-egui = "0.12.1"
+image = "0.24.3"
+palette = "0.6.1"
+num-traits = "0.2.15"
