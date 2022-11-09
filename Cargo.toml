@@ -6,8 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy = "0.8"
-bevy-inspector-egui = "0.12.1"
+bevy = {version="0.8", default-features = false}
+bevy-inspector-egui = "0.13.0"
 image = "0.24.3"
 palette = "0.6.1"
 num-traits = "0.2.15"
