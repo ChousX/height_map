@@ -1,5 +1,5 @@
 mod basic;
-pub use basic::HeightMapBuilder;
+pub use basic::*;
 
 #[cfg(test)]
 mod tests {
